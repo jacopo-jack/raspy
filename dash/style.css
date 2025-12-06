@@ -1,0 +1,62 @@
+/*rules*/
+
+/*general*/
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+a { 
+    text-decoration: none;
+    fill: blue;
+}
+main{
+    text-align-last: justify;
+    padding-left: 0%;
+}
+section{
+    transform-box: view-box;
+    box-sizing: content-box;
+    
+}
+nav{
+    transform-box: content-box;
+    box-sizing: border-box;
+}
+img{
+    text-align: center;
+    height: max-content;
+    width: max-content;
+}
+input[type="submit"]{
+    margin-top: 10%;
+}
+/*classes*/
+.element{
+    @media screen and (width>=1000) and (height>=600){
+       max-width: 600px;
+       max-height: 800px;
+    }
+}
+.box{
+    box-shadow: 5em ;
+    border-radius: 10%;
+    min-height: fit-content;
+    min-width: fit-content;
+    
+}
+.view_box{
+    border-color: whitesmoke;
+    border-top:1rem solid;
+}
+.content_box{
+    top: 20px;
+    text-overflow: hidden;
+    word-wrap: normal;
+    word-spacing: 0%;
+}
+.tint2{
+    background-color: grey;
+    opacity: inherit;
+}
+/*img and fallbacks*/
